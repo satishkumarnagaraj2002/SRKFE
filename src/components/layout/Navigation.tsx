@@ -44,15 +44,15 @@ export default function Navigation() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative h-32 w-32 sm:h-36 sm:w-36 rounded-full bg-black p-2 shadow-[0_0_0_1px_rgba(255,255,255,0.08)]">
+          <div className="flex items-center justify-between h-20 pt-2">
+            <Link href="/" className="flex items-center gap-3 group mt-2">
+              <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-full bg-transparent p-0">
                 <Image
                   src="/images/logo.png"
                   alt="SRKFE logo"
-                  width={144}
-                  height={144}
-                  className="relative z-10 h-full w-full object-contain"
+                  width={112}
+                  height={112}
+                  className="relative z-10 h-full w-full object-contain drop-shadow-[0_0_12px_rgba(0,0,0,0.5)]"
                   priority
                 />
               </div>
